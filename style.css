@@ -947,6 +947,19 @@ form textarea {
   -o-transform: scale(1.1);
 }
 
+.cv-box1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.cv {
+  margin-top: 10px;
+  text-align: center; /* Ensure text alignment */
+}
+
+
 
 /* Social */
 .Social {
@@ -1054,14 +1067,14 @@ form textarea {
   background: #b91616;
   color: #fff;
 }
-.cv-box{
+.Social.cv-box{
   display: flex;
   justify-content: center;
   align-items: center;
 
 }
 
-.cv {
+.Social.cv {
   margin-top: 10px;
   text-align: center; /* Ensure text alignment */
 }
@@ -1316,7 +1329,7 @@ form textarea {
 
 
   .setdiv {
-      padding-top: 200px;
+      padding-top: 360px;
   }
 
   nav {
@@ -1326,6 +1339,7 @@ form textarea {
       flex-wrap: wrap;
   }
 
+ 
 
 
   .header-text {
@@ -1350,7 +1364,7 @@ form textarea {
   }
 
   .header-text h2 {
-      padding-bottom: 5px;
+      padding-bottom: 0px;
       font-size: 40px;
   }
 
@@ -1414,7 +1428,7 @@ form textarea {
   #about {
       padding-top: 40px;
       padding-left: 20px;
-      color: #000000;
+      color: #ffffff;
   }
 
   .sub-title {
@@ -2052,10 +2066,10 @@ form textarea {
 
   .contact-form p {
 
-      color: #000000bf;
+      color: #ffffffbf;
       letter-spacing: 1px;
       line-height: 26px;
-      font-size: 13px;
+      font-size: 17px;
       margin-bottom: 10px;
   }
 
@@ -3047,7 +3061,6 @@ form textarea {
 
 }
 
-
 .wrapperpp {
   position: relative;
   width: 80vw;
@@ -3057,6 +3070,7 @@ form textarea {
   display: flex;
   justify-content: space-around;
   gap: 10px;
+  padding-top: 15px;
 }
 
 .containerpp {
@@ -3135,7 +3149,7 @@ span.text {
   }
   
   span.num {
-    color: #ffffff;
+    color: #000000;
     display: grid;
     place-items: center;
     font-weight: 600;
@@ -3149,7 +3163,8 @@ span.text {
   .containerpp {
       width: 100%;
       height: 25vmin;
-      font-size: 8px;
+      font-size: 10px;
+      
   }
 }
 
